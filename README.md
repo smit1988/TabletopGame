@@ -9,8 +9,6 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Resize, rotate, and move game board (with mouse)
-Dynamically choose image file from folder
 Lock game board in place
 Deck of cards
 *manually drag from deck
