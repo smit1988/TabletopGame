@@ -10,7 +10,7 @@ Multiplayer. Game area replaced by users' phones. This is likely mandatory due t
 
 TODO:
 Lock game board in place. Something with layers for the user. User set game board layer & deck layer. 
-Option to make multiple unique decks
+Option to make multiple unique decks (look into containers)
 User set where a deck deals to
 User set whether a card is dealt up or down
 User set what tapping a card does (flip, rotate 90 degrees each time, swap between 90 degrees and 0 degrees only)
