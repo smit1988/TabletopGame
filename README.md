@@ -9,9 +9,7 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Fix bug where loading image for a deck changes the animations for every deck.
 Lock game board in place. Something with layers for the user. User set game board layer & deck layer. 
-Don't have shuffle button recall cards
 User set where a deck deals to
 User set whether a card is dealt up or down
 User set what tapping a card does (flip, rotate 90 degrees each time, swap between 90 degrees and 0 degrees only)
@@ -22,3 +20,4 @@ Custom card back
 Set original deck size (at least ratio) based on the back of card uploaded
 Infinite resource deck
 Highlight the object being manipulated (i.e. what object the menu applies to)
+Undo?
