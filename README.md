@@ -10,9 +10,7 @@ Multiplayer. Game area replaced by users' phones. This is likely mandatory due t
 
 TODO:
 Lock game board in place. Something with layers for the user. User set game board layer & deck layer. 
-User set where a deck deals to
-User set whether a card is dealt up or down
-User set what tapping a card does (flip, rotate 90 degrees each time, swap between 90 degrees and 0 degrees only)
+Lock angle of options to angle of object (upsidedown for player 2)
 Add multiple of same image to deck. E.g. user uploads 5 images for a 20 card deck with 4 of each card.
 Add card to top or bottom of deck
 Resize deck
@@ -20,4 +18,5 @@ Custom card back
 Set original deck size (at least ratio) based on the back of card uploaded
 Infinite resource deck
 Highlight the object being manipulated (i.e. what object the menu applies to)
+Rotate deck around center
 Undo?
