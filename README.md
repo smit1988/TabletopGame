@@ -10,13 +10,12 @@ Multiplayer. Game area replaced by users' phones. This is likely mandatory due t
 
 TODO:
 Lock game board in place. Something with layers for the user. User set game board layer & deck layer. 
+Make Duplicate button immediately spawn a new card. Need to functionize DeckSprite generation. In 2 places currently.
+Custom card back (I think this will have to be done after making a full deck editor. Click the picture of the card back and set the animation to that)
 Lock angle of options to angle of object (upsidedown for player 2)
-Add multiple of same image to deck. E.g. user uploads 5 images for a 20 card deck with 4 of each card.
 Add card to top or bottom of deck
 Resize deck
-Custom card back
 Set original deck size (at least ratio) based on the back of card uploaded
 Infinite resource deck
-Highlight the object being manipulated (i.e. what object the menu applies to)
-Rotate deck around center
 Undo?
+Add highlight and menu to board
