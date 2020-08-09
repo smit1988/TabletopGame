@@ -9,13 +9,18 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Lock game board in place. Something with layers for the user. User set game board layer & deck layer. 
-Make Duplicate button immediately spawn a new card. Need to functionize DeckSprite generation. In 2 places currently.
-Custom card back (I think this will have to be done after making a full deck editor. Click the picture of the card back and set the animation to that)
-Lock angle of options to angle of object (upsidedown for player 2)
-Add card to top or bottom of deck
-Resize deck
-Set original deck size (at least ratio) based on the back of card uploaded
-Infinite resource deck
-Undo?
 Add highlight and menu to board
+-Resize, rotate, lock, duplicate
+Lock game board in place. Something with layers for the user. User set game board layer & deck layer. 
+Lock angle of options to angle of object (upsidedown for player 2). Though don't want it upside down if they uploaded it upside down...May actually lock it to which side of the board the menu was opened on
+Doubletap option to enlarge card
+Segment out menu a little more. Section off one time setup stuff to submenu.
+Give everyone their own deck/board upload buttons
+Option to remove new deck/board buttons
+Undo?
+Save game
+Delete objects
+
+bugs:
+Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
+
