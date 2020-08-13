@@ -5,6 +5,7 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
+See fix below in bugs
 Deleting object closes menu
 Lock angle of options to angle of object (upsidedown for player 2). Though don't want it upside down if they uploaded it upside down...May actually lock it to which side of the board the menu was opened on
 Doubletap option to enlarge card
@@ -18,4 +19,4 @@ Deck show all button should not go off screen
 bugs:
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
 Loading a second card back overrides the first
-Haven't tested yet but method of detecting overlapping zone doesn't take into account angle (hitbox will be a 0degree box around the slanted object)
+Haven't tested yet but method of detecting overlapping zone doesn't take into account angle (hitbox will be a 0degree box around the slanted object). Fix: when touch, make a 3x3 click object, see what's overlapping that.
