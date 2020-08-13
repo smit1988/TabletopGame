@@ -18,4 +18,4 @@ Deck show all button should not go off screen
 bugs:
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
 Loading a second card back overrides the first
-
+Haven't tested yet but method of detecting overlapping zone doesn't take into account angle (hitbox will be a 0degree box around the slanted object)
