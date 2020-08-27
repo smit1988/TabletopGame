@@ -5,6 +5,7 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
+Check project properties for "fullscreen in browser", "sampling", and "downscaling"
 Doubletap option to enlarge card
 Segment out menu a little more. Section off one time setup stuff to submenu.
 Give everyone their own deck/board upload buttons
