@@ -19,4 +19,5 @@ Future TODO:
 Save game requires putting sprite images in storage or online https://www.scirra.com/store/royalty-free-game-templates/my-image-upload-4355
 
 bugs:
+The save function (or at least how it is implemented) draws too much memory and crashes chrome
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
