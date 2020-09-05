@@ -5,19 +5,22 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Check project properties for "fullscreen in browser", "sampling", and "downscaling"
-Doubletap option to enlarge card
+Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
 Segment out menu a little more. Section off one time setup stuff to submenu.
-Give everyone their own deck/board upload buttons
-Lock angle of options to angle of object (upsidedown for player 2). Though don't want it upside down if they uploaded it upside down...May actually lock it to which side of the board the menu was opened on
-Hidden divider (send to table button)
-Add ability to take cards out when viewing deck (maybe add them to hand or some card specific option)
+Lock angle of options to angle of object (upsidedown for player 2). Actually that's probably bad for things like the chance card. May actually lock it to which side of the board the menu was opened on. Or better yet make a customizable rectangle that depicts specific player areas and common area. There's a lot of tertiary stuff too like viewing deck will display upsidedown.
+Hidden divider (send to table button). Actually I'm thinking the physical barrier will have a notch in it (like hook shape) to slide your finger under
+Add ability to take cards out when viewing deck. Add area above dealt cards. Any cards in that area will be kept.
 Add gifs as options for pieces
 Make view deck have top card on top or somehow indicate which is top and bottom
 
 Future TODO:
 Save game requires putting sprite images in storage or online https://www.scirra.com/store/royalty-free-game-templates/my-image-upload-4355
+Might cause a bug. "DeckSprite.ActiveCard" might as well be a random animation frame. I don't think it's necessarily greater than CardBack.ActiveCard in all instances. If there's anywhere a condition is "DeckSprite.ActiveCard >= CardBack.ActiveCard" it might break with enough deck play
 
 bugs:
 The save function (or at least how it is implemented) draws too much memory and crashes chrome
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
+
+DONE:
+Lock deck
+Send to back
