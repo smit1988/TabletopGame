@@ -5,6 +5,7 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
+Add drag and drop back to menu
 Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
 Segment out menu a little more. Section off one time setup stuff to submenu.
 Lock angle of options to angle of object (upsidedown for player 2). Actually that's probably bad for things like the chance card. May actually lock it to which side of the board the menu was opened on. Or better yet make a customizable rectangle that depicts specific player areas and common area. There's a lot of tertiary stuff too like viewing deck will display upsidedown.
