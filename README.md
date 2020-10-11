@@ -5,7 +5,9 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Biggest obstacle right now is when the menu is open, objects can still be interacted with. Probably easiest way around this would be to disable any interaction when menu is open. Maybe send it to another layer? 
+Biggest obstacle right now is when the menu is open, objects can still be interacted with. Probably easiest way around this would be to disable any interaction when menu is open. Maybe try adding the ok button and menu to the spriteZorder thing.
+-drag and drop
+-Any action when clicked (dealing)
 Add drag and drop back to menu
 Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
 Segment out menu a little more. Section off one time setup stuff to submenu.
