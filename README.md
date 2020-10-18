@@ -24,3 +24,6 @@ Take a look at "Send to top of Deck" and bottom. I think it's intended to swap a
 bugs:
 The save function (or at least how it is implemented) draws too much memory and crashes chrome
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
+Flip no longer works
+Deal face down no longer works
+Lock no longer works...
