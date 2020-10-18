@@ -5,10 +5,9 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Biggest obstacle right now is when the menu is open, objects can still be interacted with. Probably easiest way around this would be to disable any interaction when menu is open. Maybe try adding the ok button and menu to the spriteZorder thing.
--drag and drop
--Any action when clicked (dealing)
-Add drag and drop back to menu
+Dice bug
+-Made die, opened menu, resized up, set minimum to 1. Wasn't able to drag and drop or open the menu any more after that.
+Make menu drag and droppable again
 Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
 Segment out menu a little more. Section off one time setup stuff to submenu.
 Lock angle of options to angle of object (upsidedown for player 2). Actually that's probably bad for things like the chance card. May actually lock it to which side of the board the menu was opened on. Or better yet make a customizable rectangle that depicts specific player areas and common area. There's a lot of tertiary stuff too like viewing deck will display upsidedown.
@@ -26,4 +25,3 @@ The save function (or at least how it is implemented) draws too much memory and 
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
 Flip no longer works
 Deal face down no longer works
-Lock no longer works...
