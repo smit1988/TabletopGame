@@ -5,9 +5,6 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Dice
--roll animation necessary
--lock die
 Make menu drag and droppable again
 Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
 Segment out menu a little more. Section off one time setup stuff to submenu.
@@ -24,5 +21,3 @@ Take a look at "Send to top of Deck" and bottom. I think it's intended to swap a
 bugs:
 The save function (or at least how it is implemented) draws too much memory and crashes chrome
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
-Flip no longer works
-Deal face down no longer works
