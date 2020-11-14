@@ -16,9 +16,7 @@ Make view deck have top card on top or somehow indicate which is top and bottom
 Future TODO:
 Save game requires putting sprite images in storage or online https://www.scirra.com/store/royalty-free-game-templates/my-image-upload-4355
 Might cause a bug. "DeckSprite.ActiveCard" might as well be a random animation frame. I don't think it's necessarily greater than CardBack.ActiveCard in all instances. If there's anywhere a condition is "DeckSprite.ActiveCard >= CardBack.ActiveCard" it might break with enough deck play
-Take a look at "Send to top of Deck" and bottom. I think it's intended to swap around indexes of dealt cards but has the potential to swap undealt cards. "stop viewing deck" likely has same bug.
 
 bugs:
 The save function (or at least how it is implemented) draws too much memory and crashes chrome
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
-Duplicate card no longer creates correct frame
