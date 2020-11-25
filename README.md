@@ -7,7 +7,7 @@ Multiplayer. Game area replaced by users' phones. This is likely mandatory due t
 TODO:
 fix send to bottom of deck
 -had all the power grid cards in one deck. Dealt 3-10. Sent big one to bottom of deck. Next card drawn was the previous card drawn for some reason.
-If number of monitors can be detected (or just manually enter how many players) then increase card size when put in players hand. Then decrease size when sent to table.
+If number of monitors can be detected (or just manually enter how many players) then increase card size when put in players hand. Then decrease size when sent to table. Also change play area based on this.
 Put close at top
 Lock dealt cards
 Close menu after shuffle
