@@ -5,12 +5,7 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-fix send to bottom of deck
--had all the power grid cards in one deck. Dealt 3-10. Sent big one to bottom of deck. Next card drawn was the previous card drawn for some reason.
 If number of monitors can be detected (or just manually enter how many players) then increase card size when put in players hand. Then decrease size when sent to table. Also change play area based on this.
-Put close at top
-Lock dealt cards
-Close menu after shuffle
 Make menu drag and droppable again
 Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
 Segment out menu a little more. Section off one time setup stuff to submenu.
@@ -26,3 +21,5 @@ Might cause a bug. "DeckSprite.ActiveCard" might as well be a random animation f
 bugs:
 The save function (or at least how it is implemented) draws too much memory and crashes chrome
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
+fix send to bottom of deck
+-had all the power grid cards in one deck. Dealt 3-15. Sent big one to bottom of deck. Next card drawn was the previous card drawn for some reason. Am not able to recreate the issue.
