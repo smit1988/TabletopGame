@@ -26,10 +26,3 @@ The save function (or at least how it is implemented) draws too much memory and 
 Fix 1308 frame being default card back. Need to make it unique to the deck in case cardback changes.
 fix send to bottom of deck
 -had all the power grid cards in one deck. Dealt 3-15. Sent big one to bottom of deck. Next card drawn was the previous card drawn for some reason. Am not able to recreate the issue.
-Bug: infinite resource doesn't work.
-It seems like it's only when it's the first deck made?
-1. Made $1 deck
-2. set card back to $1
-3. Dealt, maybe set deal location, toggle infinite resource
-4. the action seems to fire i.e. it sets active card to 0 but the conditional "?" is false I guess for some reason?
-5. It seems like the second deck made works properly for infinite resources
