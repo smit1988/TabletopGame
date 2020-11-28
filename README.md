@@ -1,9 +1,3 @@
-# TabletopGameVersion 2:
-Quality of life features discovered in version 1. I suspect it'll be things like deck searching and ordering, distrubuting a certain number of cards or pieces to specific players, snapping to grid, saving games, etc.
-
-Version 3:
-Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
-
 TODO:
 If number of monitors can be detected (or just manually enter how many players) then increase card size when put in players hand. Then decrease size when sent to table. Also change play area based on this.
 Make menu drag and droppable again
