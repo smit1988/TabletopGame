@@ -5,9 +5,6 @@ Version 3:
 Multiplayer. Game area replaced by users' phones. This is likely mandatory due to 10 touch input limit on a single touch screen.
 
 TODO:
-Spacedesk almost works. Lots of window sizing problems.
--Chrome cannot be larger than the monitor span. So pushing the taskbar out of the way causes desktop to be shown on the third monitor
--The corner of a window has to be in the leftmost monitor. So stacking three monitors on top of each other does not work.
 If number of monitors can be detected (or just manually enter how many players) then increase card size when put in players hand. Then decrease size when sent to table. Also change play area based on this.
 Make menu drag and droppable again
 Pinch to zoom options (Keep all resize and rotate options in menu. Add option to enable pinch to zoom. Add option to enable free rotation. Would also need option to reset size and position)
