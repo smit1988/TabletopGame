@@ -1,3 +1,8 @@
+This readme is a mess. If you're reading this, I'm sorry.  
+Anyway, this is a repository for a Construct 2 project file. If you do not have that software...uh...yeah there's not really a good way to view anything useful.  
+This project is turning a 65" TV into a touch screen then using the Construct 2 project file to load and manipulate images from your harddrive.  
+https://youtu.be/nZv_C0oMm_E
+
 TODO:
 If number of monitors can be detected (or just manually enter how many players) then increase card size when put in players hand. Then decrease size when sent to table. Also change play area based on this.
 Make menu drag and droppable again
